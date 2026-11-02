@@ -40,3 +40,7 @@ yarn-error.*
 
 .claude/
 package-lock.json
+docs
+AGENTS.md 
+CLAUDE.md
+LICENSE
