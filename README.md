@@ -199,20 +199,3 @@ npx expo-doctor
 ```
 
 ---
-
-## Implementation Phases & Git Commit History
-
-The project was constructed following a structured 9-phase implementation plan:
-
-```text
-a41e167 (tag: v1.0.0) feat: add tab bar icons and final UI polish
-438d9e1 feat: analytics screen with monthly navigation, pie chart, and bar chart
-aeaa2e0 feat: transactions screen with search, type and category filters
-a5eae1f feat: dashboard screen with balance summary, recent transactions, and FAB
-c17718f feat: edit transaction screen with pre-filled form and delete action
-fa5652c feat: add transaction screen with form validation and haptic feedback
-814bf64 feat: add shared UI components — BalanceSummary, TransactionCard, FilterBar, etc.
-a5f32df feat: add Zustand store with AsyncStorage persistence and utility functions
-6f1b5d1 feat: project scaffolding with Expo Router, Paper theme, and categories
-```
-
