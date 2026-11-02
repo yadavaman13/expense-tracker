@@ -200,7 +200,7 @@ npx expo-doctor
 
 ---
 
-## 📜 Implementation Phases & Git Commit History
+## Implementation Phases & Git Commit History
 
 The project was constructed following a structured 9-phase implementation plan:
 
@@ -216,8 +216,3 @@ a5f32df feat: add Zustand store with AsyncStorage persistence and utility functi
 6f1b5d1 feat: project scaffolding with Expo Router, Paper theme, and categories
 ```
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
