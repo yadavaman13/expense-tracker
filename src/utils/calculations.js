@@ -44,3 +44,4 @@ export function calculateCategoryTotals(transactions, type) {
     }))
     .sort((a, b) => b.total - a.total);
 }
+

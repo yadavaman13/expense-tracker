@@ -21,3 +21,4 @@ export default function useMonthlyStats(transactions, month, year) {
     };
   }, [transactions, month, year]);
 }
+

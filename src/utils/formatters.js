@@ -53,3 +53,4 @@ export function formatDateShort(dateString) {
 export function getMonthName(monthIndex) {
   return MONTHS_FULL[monthIndex];
 }
+

@@ -47,3 +47,4 @@ export function sortTransactionsByDate(transactions, order = "desc") {
     return order === "desc" ? dateB - dateA : dateA - dateB;
   });
 }
+

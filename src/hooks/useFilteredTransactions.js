@@ -19,3 +19,4 @@ export default function useFilteredTransactions(transactions) {
 
   return { filteredTransactions, filters, setFilters, resetFilters };
 }
+

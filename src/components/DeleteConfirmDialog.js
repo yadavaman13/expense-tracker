@@ -30,3 +30,4 @@ export default function DeleteConfirmDialog({ visible, onDismiss, onConfirm }) {
     </Portal>
   );
 }
+
