@@ -11,10 +11,17 @@ export default function RootLayout() {
           screenOptions={{
             headerShown: false,
             contentStyle: { backgroundColor: theme.colors.background },
+            animation: "slide_from_right",
           }}
-        />
+        >
+          <Stack.Screen name="(tabs)" />
+          <Stack.Screen
+            name="transaction/add"
+            options={{ presentation: "modal", animation: "slide_from_bottom" }}
+          />
+          <Stack.Screen name="transaction/[id]" />
+        </Stack>
       </PaperProvider>
     </SafeAreaProvider>
   );
 }
-
